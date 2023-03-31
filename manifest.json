@@ -1,5 +1,5 @@
 {
-  "id": "TestReactApp",
+  "id": "./TestApp",
   "short_name": "React App",
   "name": "Create React App Sample",
   "icons": [
@@ -19,7 +19,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "./TestApp",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"

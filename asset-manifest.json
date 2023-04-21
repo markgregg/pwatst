@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/pwatst/static/css/main.89757db0.css",
-    "main.js": "/pwatst/static/js/main.b1b02b75.js",
+    "main.js": "/pwatst/static/js/main.041fa9f5.js",
     "static/js/787.13191d3c.chunk.js": "/pwatst/static/js/787.13191d3c.chunk.js",
     "service-worker.js": "/pwatst/service-worker.js",
     "index.html": "/pwatst/index.html",
     "main.89757db0.css.map": "/pwatst/static/css/main.89757db0.css.map",
-    "main.b1b02b75.js.map": "/pwatst/static/js/main.b1b02b75.js.map",
+    "main.041fa9f5.js.map": "/pwatst/static/js/main.041fa9f5.js.map",
     "787.13191d3c.chunk.js.map": "/pwatst/static/js/787.13191d3c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.89757db0.css",
-    "static/js/main.b1b02b75.js"
+    "static/js/main.041fa9f5.js"
   ]
 }

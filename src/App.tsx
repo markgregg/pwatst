@@ -11,7 +11,7 @@ import TitleBar from './elemements/TitleBar';
 import TraderPrice from './elemements/TradePrice';
 import UniversalApp, { Component, RouteApi, WindowApi, AppLayout, AppRoute } from 'pwa-synergy-api';
 import './App.css';
-import 'pwa-synergy-api/WindowsDockDark.css';
+import 'pwa-synergy-api/rc-dock-dark.css';
 
 const components: Component<TraderDesktopCommands>[] = [
   {

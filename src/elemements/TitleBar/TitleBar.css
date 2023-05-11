@@ -1,0 +1,11 @@
+.titleBar {
+  color: var(--font);
+  font-size: x-large;
+  text-align: center;
+  font-weight: bold;
+  background-image: linear-gradient(to bottom, black 2%, var(--header) 60%, black );
+}
+
+.titleText {
+  padding: 10px;
+}

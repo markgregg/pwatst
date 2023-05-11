@@ -1,0 +1,10 @@
+:root {
+  --buy: darkgreen;
+  --buyHover: lightgreen;
+  --sell: darkred;
+  --sellHover: red;
+
+  --header: #125f95;
+  --hedaerHover: #3e97d7;
+  --font: white;
+}

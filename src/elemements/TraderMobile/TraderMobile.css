@@ -1,0 +1,7 @@
+.mobileTrader {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: black;
+  color: var(--font);
+}

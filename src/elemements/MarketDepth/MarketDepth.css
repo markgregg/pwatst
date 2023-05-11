@@ -1,0 +1,56 @@
+@import '../../assets/common.css';
+
+.marketDepth {
+  height: 100%;
+  width: 100%;
+  color: var(--font);
+}
+
+.marketDepthHeader {
+  position: sticky;
+  top: 0;
+}
+
+.marketDepth th {
+  width: 150px;
+  padding-bottom: .2em;
+  background-image: linear-gradient(to bottom, black 2%, var(--header) 60%, black );
+}
+
+.marketDepth td {
+  padding-bottom: 5px;
+}
+
+.depthBuy {
+  color: var(--buy);
+  margin-left: 5px;
+}
+
+.depthBuy:hover {
+  color: var(--buyHover);
+}
+
+.depthSell {
+  color: var(--sell);
+  margin-left: 5px
+}
+
+.depthSell:hover {
+  color: var(--sellHover);
+}
+
+.marketDepthPrice {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .marketDepth {
+    font-size: small;
+    max-height: 200px;
+  }
+  td {
+    padding-bottom: .5em;
+  }
+}

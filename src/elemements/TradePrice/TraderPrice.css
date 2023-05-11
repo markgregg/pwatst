@@ -1,0 +1,27 @@
+.mobilePrice {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: black;
+  color: var(--font);
+}
+
+.headerContainer {
+  color: var(--font);
+  font-size: medium;
+  text-align: center;
+  font-weight: bold;
+  background-image: linear-gradient(to bottom, black 2%, var(--header) 60%, black );
+}
+
+.headerText {
+  padding: 10px;
+}
+
+.priceMovementCon {
+  height: 50%;  
+}
+
+.marketDepthCon {
+  height: 50%;  
+}

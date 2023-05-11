@@ -1,0 +1,47 @@
+@import '../../assets/common.css';
+
+.trades {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  color: var(--font);
+}
+
+.tradesHeader {
+  position: sticky;
+  top: 0;
+}
+
+.trades th {
+  width: 150px;
+  padding-bottom: .2em;
+  background-image: linear-gradient(to bottom, black 2%, var(--header) 60%, black );
+}
+
+.tradesBuy {
+  color: var(--buyHover);
+}
+
+.tradesSell {
+  color: var(--sellHover);
+}
+
+.trades td {
+  padding-bottom: 5px;
+}
+
+.tradesPrice {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .trades {
+    font-size: small;
+    max-height: 200px;
+  }
+  td {
+    padding-bottom: .5em;
+  }
+}

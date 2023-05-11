@@ -1,0 +1,123 @@
+@import '../../assets/common.css';
+
+.tradeEntryForm {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  color: var(--font);
+}
+
+.tradeEntrySide {
+  width: 100%;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  user-select: none;
+  padding-bottom: 5px;
+}
+
+.tradeContent {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+.tradeEntryBuy{
+  background-color: var(--buy);
+}
+
+.tradeEntryBuy:hover{
+  background-color: var(--buyHover);
+}
+
+.tradeEntrySell{
+  background-color: var(--sell);
+}
+
+.tradeEntrySell:hover{
+  background-color: var(--sellHover);
+}
+
+.tradeInputs {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tradeText {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tradeValues {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tradePair {
+  width: 100px;
+}
+
+.tradeBroker {
+  width: 80px;
+}
+
+.tradePrice {
+  width: 100px;
+}
+
+.tradeSize {
+  width: 120px;
+}
+
+.tradeButtons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  color: var(--font);
+}
+
+.tradeCancel {
+  margin-right: 20px;
+  background-color: red;
+  padding: 5px;
+  width: 65px;
+  text-align: center;
+}
+
+.tradeEnter {
+  background-color: var(--header);
+  padding: 5px;
+  width: 65px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .tradeContent {
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+
+  .tradeText {
+    gap: 40px;
+  }
+  
+  .tradeValues {
+    gap: 40px;
+  }
+
+  .tradeButtons {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 20px;
+  }
+}

@@ -6,7 +6,7 @@ import { useDispatch } from 'react-redux';
 import { isMobile } from '../../utils/misc';
 import { setActive } from '../../state/activePairSlicer';
 import { getPositions } from '../../services/positions';
-import { registerInterest, deregisterInterest, notifyInterest } from 'pwa-synergy-client';
+import { registerInterest, deregisterInterest, notifyInterest } from 'pwa-synergy-api';
 import 'ag-grid-community/styles/ag-grid.css';
 import 'ag-grid-community/styles/ag-theme-balham.min.css'; 
 import './Portfolio.css';

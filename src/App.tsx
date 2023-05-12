@@ -61,7 +61,7 @@ const mobileCommands = (routeApi: RouteApi): TraderDesktopCommands => {
   return {
     buy: (pair?: string, broker?: string, price?: number) => {
       routeApi.navigate(
-        'enterTrade', 
+        'pwatst/enterTrade', 
         {
           buySell: 'BUY',
           pair,
@@ -72,7 +72,7 @@ const mobileCommands = (routeApi: RouteApi): TraderDesktopCommands => {
     },
     sell: (pair?: string, broker?: string, price?: number) => {
       routeApi.navigate(
-        'enterTrade', 
+        'pwatst/enterTrade', 
         {
           buySell: 'SELL',
           pair,
@@ -81,7 +81,7 @@ const mobileCommands = (routeApi: RouteApi): TraderDesktopCommands => {
         }
       );
     },
-    setMainPage: (page: '/' | 'traderPrice') => routeApi.navigate(page),
+    setMainPage: (page: 'pwatst/' | 'pwatst/traderPrice') => routeApi.navigate(page),
     close: () => routeApi.back()
   }
 }
@@ -120,7 +120,7 @@ const desktopCommands = (desktopApi: WindowApi): TraderDesktopCommands => {
         }
       );
     },
-    setMainPage: (page: '/' | 'traderPrice') => {},
+    setMainPage: (page: 'pwatst/' | 'pwatst/traderPrice') => {},
     close: (component: string, instance: string) => desktopApi.closeComponent(component, instance)
   }
 }
@@ -185,11 +185,15 @@ const routes: AppRoute[] = [
     component: 'traderMobile'
   },
   {
-    path: "/traderPrice",
+    path: "pwatst/",
+    component: 'traderMobile'
+  },
+  {
+    path: "pwatst/traderPrice",
     component: 'traderPrice'
   },
   {
-    path: "/enterTrade",
+    path: "pwatst/enterTrade",
     component: 'enterTrade'
   },
 ]

@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import { TraderDesktopCommands } from '../../contracts/TraderDesktopCommands';
 import { RootState } from '../../state/store';
 import { api } from 'pwa-synergy-api';
-import { registerIntent, deregisterIntent } from 'pwa-synergy-client';
+import { registerIntent, deregisterIntent } from 'pwa-synergy-api';
 import './Toolbar.css';
 
 interface Trade {
@@ -46,13 +46,13 @@ const Toolbar: FC<TraderDesktopCommands> = ({buy, sell, setMainPage}) => {
         {
           api.isMobile() && <li 
           className='mainPage'
-          onClick={() => setMainPage('/')}
+          onClick={() => setMainPage('pwatst/')}
           >Trade Positions</li>
         }
         {
           api.isMobile() && <li 
             className='mainPage'
-            onClick={() => setMainPage('traderPrice')}
+            onClick={() => setMainPage('pwatst/traderPrice')}
           >Trade Prices</li>
         }
         {

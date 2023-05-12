@@ -9,7 +9,7 @@ import Toolbar from './elemements/Toolbar';
 import Trades from './elemements/Trades';
 import TitleBar from './elemements/TitleBar';
 import TraderPrice from './elemements/TradePrice';
-import UniversalApp, { Component, RouteApi, WindowApi, AppLayout, AppRoute } from 'pwa-synergy-api';
+import UniversalApp, { Component, RouteApi, WindowApi, AppLayout, AppRoute } from 'pwa-synergy-api'
 import './App.css';
 import './assets/rc-dock-dark.css';
 

@@ -2,8 +2,7 @@ import { FC, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import { TraderDesktopCommands } from '../../contracts/TraderDesktopCommands';
 import { RootState } from '../../state/store';
-import { api } from 'pwa-synergy-api';
-import { registerIntent, deregisterIntent } from 'pwa-synergy-api';
+import { registerIntent, deregisterIntent, api } from 'pwa-synergy-api'
 import './Toolbar.css';
 
 interface Trade {
